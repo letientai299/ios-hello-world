@@ -39,3 +39,7 @@ File -> New -> Project ...
 Then, create a new "Single View App", give it some information, and choose the
 destination as your repository. Don't care about the "Development Team" setting
 yet.
+
+## Fastlane
+
+app-icon must be png format and using RGB color space.
