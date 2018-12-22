@@ -1,0 +1,3 @@
+A sample app during learning iOS development. Hopefully it will be helpful for other learners.
+
+Source code: https://github.com/letientai299/ios-hello-world

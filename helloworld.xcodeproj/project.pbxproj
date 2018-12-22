@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B4A63421CE773F003F8330 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4A63321CE773E003F8330 /* SnapshotHelper.swift */; };
 		04C0DEBE21C4286C007D8EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0DEBD21C4286C007D8EDD /* AppDelegate.swift */; };
 		04C0DEC021C4286C007D8EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0DEBF21C4286C007D8EDD /* ViewController.swift */; };
 		04C0DEC321C4286C007D8EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0DEC121C4286C007D8EDD /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B4A63321CE773E003F8330 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		04C0DEBA21C4286C007D8EDD /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0DEBD21C4286C007D8EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C0DEBF21C4286C007D8EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		04C0DEDC21C4286D007D8EDD /* helloworldUITests */ = {
 			isa = PBXGroup;
 			children = (
+				04B4A63321CE773E003F8330 /* SnapshotHelper.swift */,
 				04C0DEDD21C4286D007D8EDD /* helloworldUITests.swift */,
 				04C0DEDF21C4286D007D8EDD /* Info.plist */,
 			);
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C0DEDE21C4286D007D8EDD /* helloworldUITests.swift in Sources */,
+				04B4A63421CE773F003F8330 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +478,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 239M3T6SF3;
 				INFOPLIST_FILE = helloworldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,6 +499,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 239M3T6SF3;
 				INFOPLIST_FILE = helloworldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,6 +519,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 239M3T6SF3;
 				INFOPLIST_FILE = helloworldUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,6 +539,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 239M3T6SF3;
 				INFOPLIST_FILE = helloworldUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
